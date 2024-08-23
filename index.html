@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header with input and button -->
+        <div class="row align-items-center justify-content-between py-3">
+            <div class="col-md-5">
+                <p class="mb-0">Source Data:</p>
+            </div>
+            <div class="col-md-7 d-flex justify-content-end">
+                <input type="text" id="input" class="form-control me-2 w-50" placeholder="Enter comma-separated numbers">
+                <button type="button" id="btn-info" class="btn btn-primary">Update Data</button>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Chart container -->
+        <div class="row py-3">
+            <div id="viewGrafic" class="col-12"></div>
+        </div>
+    </div>
+    
+    <!-- JavaScript Modules -->
+    <script type="module" src="./grafic.js"></script> 
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
